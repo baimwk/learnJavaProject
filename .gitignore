@@ -1,0 +1,12 @@
+# Project exclude paths
+/.gradle/
+
+# Intellij
+.idea/
+
+# Compiled Files
+*.class
+bin/
+build/
+/bin1/
+java/build/**
