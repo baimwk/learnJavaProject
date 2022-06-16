@@ -1,4 +1,5 @@
 plugins {
+    id 'io.franzbecker.gradle-lombok' version '1.14'
     id 'java'
 }
 
@@ -7,6 +8,11 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+lombok {
+    version = '1.18.24'
+    sha256 = ""
 }
 
 dependencies {
